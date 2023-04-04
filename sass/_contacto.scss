@@ -1,0 +1,21 @@
+
+/*aplico mixin*/
+
+@mixin tamaños ($padding, $width){
+    padding: $padding;
+    width: $width;
+} 
+
+
+fieldset {
+@include tamaños(30px, 40px)
+} 
+    
+.contac p {
+        text-align:center;
+ }
+
+.contactos {
+    margin: 50px;
+}
+

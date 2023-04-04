@@ -1,0 +1,10 @@
+.noticias-fotos { 
+    display: grid;
+    grid-template-columns:repeat(6, 100px);
+    grid-row: 100px 100px;
+    gap:20px 130px;
+    padding: 10px;
+.noticias-fotos  img{ 
+        width:200px;
+    }
+}

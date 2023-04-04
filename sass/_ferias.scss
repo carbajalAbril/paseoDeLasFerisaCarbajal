@@ -1,0 +1,34 @@
+.feriasImagenes img{ 
+    width: 180px ;
+.presentacion p{ 
+        text-align: center ;
+    }
+.feriasImagenes{ 
+        display: grid;
+        grid-template-columns:150px 150px 150px;
+        grid-row: 300px ;
+        gap:20px 100px;
+        padding: 10px;  
+        justify-content: center;
+    }
+.feriasTitulos { 
+        display: grid;
+        grid-template-columns:150px 150px 150px;
+        grid-row: 300px ;
+        gap:20px 100px;
+        justify-content: center;
+        text-align:center;
+    }
+.feriasTexto { 
+        display: grid;
+        grid-template-columns:150px 150px 150px;
+        grid-row: 300px ;
+        gap:20px 100px;
+        justify-content: center;
+        text-align:center;
+    }
+.galeria {
+        text-align:center;
+        background-color: $coloreprincipalrosa;
+    } 
+}
