@@ -61,8 +61,35 @@ h2 {
   margin-top: 20px;
 }
 
+.desvanecer {
+  animation: opacityOn 1s normal ;
+  animation-delay: 2s;
+}
+
+@keyframes opacityOn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
 footer img {
+  opacity: 0.2;
   width: 100px;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+.footerContact {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .spot {
@@ -120,6 +147,13 @@ footer img {
 fieldset {
   padding: 30px;
   width: 40px;
+}
+
+form { 
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin:-100px 0 0 -90px;
 }
 
 .contac p {
